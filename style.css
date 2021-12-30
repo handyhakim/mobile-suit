@@ -87,7 +87,7 @@ a, ul, p {
 }
 
 .content-2 {
-    background-color: #FFFFFF;
+    background-color: #F9FAF8;
 
     display: flex;
     flex-direction: column;
@@ -157,7 +157,7 @@ a, ul, p {
 }
 
 .content-4 {
-    background-color: #FFFFFF;
+    background-color: #F9FAF8;
 
     display: flex;
     justify-content: center;
@@ -177,7 +177,7 @@ a, ul, p {
 }
 
 .content-4 .card-left p {
-    color: #FFFFFF;
+    color: #F9FAF8;
 }
 
 .content-4 .card-head {
@@ -186,12 +186,23 @@ a, ul, p {
 }
 
 .content-4 button {
-    border: 2px solid #FFFFFF;
+    border: 0.22em solid #F9FAF8;
     cursor: pointer;
     max-width: 8em;
-    padding: 0.4em 2em;
+    padding: 0.6em 2em;
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
     border-radius: 0.6em;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 2em 12em;
+}
+
+.footer p {
+    color: #F9FAF8;
 }
