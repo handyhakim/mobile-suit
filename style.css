@@ -34,6 +34,7 @@ a, ul, p {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    margin-left: 0.3em;
 }
 
 .header-link ul {
@@ -48,7 +49,7 @@ a, ul, p {
 }
 
 .content-1 {
-    padding: 5em 12em;
+    padding: 4em 12em;
     gap: 7em;
 }
 
@@ -59,6 +60,7 @@ a, ul, p {
 }
 
 .content-1-a-sub {
+    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -81,4 +83,49 @@ a, ul, p {
 
 .content-1 img {
     max-width: 20em;
+    border-radius: 0.6em;
+}
+
+.content-2 {
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em 12em;
+    gap: 3em;
+}
+
+.content-2-info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.content-2-list ul {
+    display: flex;
+    gap: 2.5em;
+}
+
+.content-2-list li {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.content-2-list li img {
+    border-radius: 0.6em;
+}
+
+.content-2-list img {
+    max-width: 10em;
+}
+
+.content-2-list p {
+    font-size: 18px;
+    color: #1F2937;
 }
